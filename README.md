@@ -1,1 +1,1 @@
-# 10kcoders_vikky
+# 10k_coders_vikky
