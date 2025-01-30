@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,13 @@
             background-color: #f4f4f4;
             text-align: center;
         }
+
         a {
             font-family: 'Courier New', Courier, monospace;
             text-decoration: none;
             color: black;
         }
-        
+
 
         h1 {
             font-size: 28px;
@@ -25,11 +27,14 @@
             text-align: center;
             background-color: #d9534f;
             width: 75%;
-            border-radius: 8px;
+            /* Adjust width to control how much space it takes */
             padding: 25px;
+            border-radius: 8px;
             margin: 70px auto;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            /* Centers it horizontally */
+            box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
         }
+
         h2 {
             font-size: 22px;
             background-color: #d9534f;
@@ -38,13 +43,15 @@
             margin: 20px auto;
             width: 50%;
             border-radius: 8px;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+            box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
         }
+
         .task-container {
             margin: 20px auto;
             width: 50%;
             text-align: center;
         }
+
         .task-link {
             display: inline-block;
             background-color: #027fad;
@@ -55,38 +62,52 @@
             border-radius: 5px;
             font-size: 18px;
             transition: 0.3s;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+            box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
         }
+
         .task-link:hover {
             background-color: black;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
         }
+        .body-container {
+            width: 75%;
+            border-radius: 80px;
+            padding: 25px;
+            background-color: #05a5ad;
+            border-color: black;
+            box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
+            margin: 70px auto;
+        }
     </style>
 </head>
+
 <body>
-    <h1>DAILY TASKS</h1>
+    <div class="body-container">
+        <h1>DAILY TASKS</h1>
 
 
-    <h2>Task From Day1</h2>
-    <div class="task-container">
-        <a href="./day1/Task-1.html" target="_self" class="task-link">Task 1</a>
-    </div>
+        <h2>Task From Day1</h2>
+        <div class="task-container">
+            <a href="./day1/Task-1.html" target="_blank" class="task-link">Task 1</a>
+        </div>
 
-    <h2>Task From Day2</h2>
-    <div class="task-container">
-        <a href="./day2/Task-2.html" target="_self" class="task-link">Task 2</a>
-    </div>
+        <h2>Task From Day2</h2>
+        <div class="task-container">
+            <a href="./day2/Task-2.html" target="_blank" class="task-link">Task 2</a>
+        </div>
 
-    <h2>Task From Day3</h2>
-    <div class="task-container">
-        <a href="./day3/Task-3.html" target="_self" class="task-link">Task 3</a>
-    </div>
+        <h2>Task From Day3</h2>
+        <div class="task-container">
+            <a href="./day3/Task-3.html" target="_blank" class="task-link">Task 3</a>
+        </div>
 
-    <h2>Task From Day4</h2>
-    <div class="task-container">
-        <a href="./day4/Task-4.html" target="_self" class="task-link">Task 4</a>
-        <br>
-        <a href="./day4/Task-5.html" target="_self" class="task-link">Task 5</a>
+        <h2>Task From Day4</h2>
+        <div class="task-container">
+            <a href="./day4/Task-4.html" target="_blank" class="task-link">Task 4</a>
+            <br>
+            <a href="./day4/Task-5.html" target="_blank" class="task-link">Task 5</a>
+        </div>
     </div>
 </body>
+
 </html>
