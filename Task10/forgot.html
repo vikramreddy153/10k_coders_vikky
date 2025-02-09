@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f7f5f5da;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .Login_Container {
+            width: 450px;
+            height: 550px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .heading {
+            font-size: 40px;
+            font-weight: bold;
+            background-color: aliceblue;
+            border-radius: 5px;
+            width: 70%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .usernametext,
+        .passwordtext,.otpnumber {
+            font-size: 25px;
+        }
+
+        .username_login,
+        .username_password,.username_otp {
+            font-size: 20px;
+            border-radius: 5px;
+            width: 80%;
+            height: 40px;
+            background-color: #f6f6f9;
+            border: 1px solid #ccc;
+            padding: 13px;
+            margin-bottom: 10px;
+        }
+
+        .submit_button {
+            font-size: 25px;
+            background-color: #177df357;
+            border-radius: 5px;
+            border-color: black;
+            height: 90px;
+        }
+        .login_button {
+            font-size: 25px;
+            background-color: #177df357;
+            border-radius: 5px;
+            border-color: black;
+            width: 90px;
+            height: 40px;
+        }
+        .Register_button {
+            font-size: 25px;
+            background-color: #177df357;
+            border-radius: 5px;
+            border-color: black;
+            width: 110px;
+            height: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="Login_Container" method="get" action="changepassword.html" autocomplete="off">
+        <h1 class="heading">Password Change</h1>
+
+        <label class="usernametext" for="username">Username </label>
+        <input class="username_login" type="text" name="username" placeholder="Enter your username" required>
+        <br>
+
+        <label class="passwordtext" for="password">New Password </label>
+        <input class="username_password" type="password" name="password" placeholder="Enter Password" minlength="8"
+            maxlength="16" required>
+        
+        <label class="otpnumber" for="number">OTP</label>
+        <input class="username_otp" type="text" inputmode="numeric" maxlength="6" name="OTP" placeholder="Enter OTP" required>
+
+        <!-- Submit button replaced with an image -->
+        <br>
+        <input class="submit_button" type="submit" value="Change Password">
+        <br>
+        <table cellspacing="0" cellpadding="10" border="0" width="350px">
+            <tr>
+                <td>
+                    <input class="login_button" type="button" value="Login" onclick="window.location.href='login.html';">
+                </td>
+                <td align="right">
+                    <input class="Register_button" type="button" value="Register" onclick="window.location.href='register.html';">
+                </td>
+            </tr>
+        </table>
+        
+    
+</body>
+</html>
