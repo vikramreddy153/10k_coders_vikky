@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 15px;
+            line-height: 25px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-transform: capitalize;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #F6DED8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .header h1 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            background: #B82132;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding: 5px 0;
+            font-size: 14px;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 13px;
+            padding-bottom: 3px;
+            border-bottom: 2px solid #B82132;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px;
+        }
+        .project1, .project2 {
+            border-bottom: 2px solid #B82132;
+            padding-bottom: 10px;
+        }
+        .v1 {
+            font-size: 11px;
+            margin-right: 5px;
+            padding: 3px;
+            border-radius: 10px;
+            background-color: #B82132;
+            color: #fcfcfc;
+        }
+        .button:hover {
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 34px;
+        }
+        
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 80%;
+                margin: 20px auto;
+                padding: 15px;
+                font-size: 10px;
+            }
+            .contact-info {
+                width: 100%;
+                font-size: 0.2px;
+                padding-bottom: 0;
+                border-bottom: 0;
+            }
+            .header h1 {
+                font-size: 10px;
+            }
+            .section h2 {
+                font-size: 10px;
+                padding: 6px;
+            }
+            .section ul li, .contact-info {
+                font-size: 12px;
+            }
+            .v1 {
+                font-size: 08px;
+            }
+            table {
+                width: 100%;
+            }
+            .button {
+                width: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MANDA CHANIKYA SAI VIKRAM REDDY</h1>
+            <p><b>Frontend Developer</b></p>
+        </div>
+        <div class="contact-info">
+            <span><img src="./email.png" alt="Email" width="20px"><a href="mailto:mandavikramreddy@gmail.com"> mandavikramreddy@gmail.com</a></span>
+            &nbsp;
+            <span><img src="./call.png" alt="Call" width="20px"><a href="tel:+91 8604567143">+91 8604567143</a></span>
+            &nbsp;
+            <span><img src="./linkdln.png" alt="Call" width="20px"><a href="www.linkedin.com/in/vikramreddy153"> linkedin.com/in/vikramreddy153 </a></span>
+
+        </div>
+        <div class="section">
+            <h2>About</h2>
+            <p>I Was passionate and dedicated Frontend Developer with a strong foundation in HTML, CSS, and JavaScript. He is skilled at creating visually appealing and user-friendly interfaces, and is always eager to learn and improve his skills. He is a team player with a strong communication and problem-solving abilities, and is always ready to contribute to the development of his team.</p>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <table border="0" cellspacing="0" cellpadding="4px" width="770px">
+                    <tr>
+                        <td align="left">
+                            <li><b>Bachelor's in Computer Science </b></li>
+                            <li>Artificial Intilligence</li>
+                        </td>
+                        <td align="right">
+                            <li>JNTUK University</li>
+                            <li>2021-2025</li>
+                        </td>
+                    </tr>
+                </table>
+                
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Internship</h2>
+            <ul>
+                <li><b>Web Devolopment</b></li>
+                <li>Intern at IIIT Hyderbad (May 2023)</li>
+            </ul>
+            <p class="internship_container">During this internship, I developed a responsive web application using HTML and CSS, ensuring
+                a user-friendly and adaptive interface. I implemented backend functionality using Python and Flask,
+                efficiently handling data processing and server-side logic. Additionally, I structured the application
+                following best coding practices, improving maintainability and scalability.</p>
+        </div>
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li style="font-size: 20px;"><b>Tic Tac Toe</b></li>
+                <li style="font-size: 13px;"><b>Python, Flask, Html, CSS</b></li>
+            </ul>
+            <p class="project1">Developed an AI-powered Tic-Tac-Toe web app using Flask, HTML, CSS, and Python. Implemented
+                a smart AI opponent for dynamic gameplay. Ensured smooth interaction with a responsive UI and real-
+                time updates. Integrated Flask for game state management.</p>
+
+            <ul>
+                <li style="font-size: 20px;"><b>Portofolio Website</b></li>
+                <li style="font-size: 13px;"><b>Javascript, Html, CSS</b></li>
+            </ul>
+            <p class="project2">Developed a portfolio website using HTML, CSS, and JavaScript to showcase projects and skills.
+                Designed a responsive layout with interactive elements for seamless user experience. Optimized perfor-
+                mance and accessibility for smooth navigation.</p>
+
+                <ul>
+                    <li style="font-size: 20px;"><b>To Do List</b></li>
+                    <li style="font-size: 13px;"><b>Javascript, Html, CSS</b></li>
+                </ul>
+                <p class="project3">Developed a To-Do List app using HTML, CSS, and JavaScript with task management features.
+                    Enabled local storage for data persistence and designed a responsive, user-friendly interface and devoloped the application.</p>
+        </div>
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><b>Frontend Tecnologies :</b> HTML, CSS, JavaScript</li>
+                <li><b>Backend Tecnologies :</b> Python, Java(Basics)</li>
+                <li><b>Database :</b> MySQL, MongoDB</li>
+                <li><b>Frameworks :</b> Flask, React.js(Basics)</li>
+                <li><b>Devoloper Tools :</b> VS-Code, Git, Github</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Soft Skills</h2>
+            <table border="0" cellpadding="40px" cellspacing="0px">
+                <tr>
+                    <td>
+                        <p>Communication</p>
+                        <p>Problem Solving</p>
+                        <p>Adaptibility</p>
+                        <p>Flexibility</p>
+                    </td>
+                    <td>
+                        <p class="v1">9/10</p>
+                        <p class="v1">8/10</p>
+                        <p class="v1">9/10</p>
+                        <p class="v1">8/10</p>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <p >Active Listening</p>
+                        <p>Leadership</p>
+                        <p>Time Management</p>
+                        <p>Patience</p>
+                    </td>
+                    <td>
+                        <p class="v1">9/10</p>
+                        <p class="v1">8/10</p>
+                        <p class="v1">9/10</p>
+                        <p class="v1">8/10</p>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+        <center>
+            <h2>Download Resume</h2>
+            <a class="button" href="./Vikram_Reddy_Resume_10k_coders_.pdf" download="Resume.pdf"><img src="./download.png" alt="Download" width="50px"></a>
+        </center>
+    </div>
+    </div>
+
+    
+</body>
+</html>
