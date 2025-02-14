@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family:"Motiva Sans Light", sans-serif;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar > h1 {
+    color: #2e186a;
+}
+.navlinks {
+    color: #2e186a;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    scroll-behavior: smooth;
+}
+.navlinks:hover {
+    color: #ff825c;
+}
+.navlinks > a {
+    text-decoration: none;
+}
+.Contact {
+    background-color: #2e186a;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+.Contact:hover {
+    background-color: #ff825c;
+}
+
+.landingpage {
+    display: flex;
+    flex-wrap: wrap;
+}
+.landingtxt {
+    padding-top: 80px;
+    color: #2e186a;
+
+}
+
+.submit {
+    background-color: #2e186a;
+    color: white;
+    font-size: 20px;
+    width: 230px;
+}
+
+.submit:hover {
+    background-color: #ff825c;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.b1 {
+    border-radius: 7px;
+    background-color: #2e186a;
+    box-shadow: 8px 8px 8px rgba(0.2, 0.2, 0.2, 0.2);
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.b1:hover {
+    background-color: #ff825c;
+}
+.b2 {
+    text-decoration: none;
+    border-radius: 7px;
+    box-shadow: 8px 8px 8px rgba(0.2, 0.2, 0.2, 0.2);
+    background-color: white;
+    color: #2e186a;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+}
+
+.b2:hover {
+    background-color: #ff825c;
+    color: white;
+}
+
+p {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img {
+    padding-top: 80px;
+}
+
+.img2 {
+    padding-top: 80px;
+}
+.sub_containers {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.we{
+    width: 50%;
+}
+.you {
+    width: 50%;
+}
+
+label {
+    font-family: "Motiva Sans Light", sans-serif;
+}
+input {
+    width: 380px;
+    padding-left: 10px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #f1f2f3;
+    border: none;
+
+}
+#message {
+    border-radius: 7px;
+    background-color: #f1f2f3;
+    border: none;
+    width: 380px;
+    padding-left: 10px;
+    height: 200px;
+}
+.messagelabel {
+}
