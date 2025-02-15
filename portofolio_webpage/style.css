@@ -1,0 +1,515 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.first-section {
+    background: linear-gradient(to right, #dff1f7, #a6d5f7);
+    padding: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover {
+    color: #ea580c;
+}
+
+.download-button {
+    background-color: #ea580c;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #c2410c;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.25rem;
+}
+
+.hero-content p {
+    font-size: 1.125rem;
+}
+
+.email-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.email-input input {
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: #9ab7c9;
+    padding: 0 10px;
+}
+
+.email-input input:focus {
+    outline: none;
+    border: none;
+}
+
+.email-input .submit-button {
+    background-color: #ea580c;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.email-input .submit-button:hover {
+    background-color: #c2410c;
+}
+
+.submit-button {
+    background-color: #ea580c;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #c2410c;
+}
+
+.submit-button1 {
+    background-color: #ea580c;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button1:hover {
+    background-color: #c2410c;
+}
+
+.ourabout {
+    font-size: 11px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: #ea580c 1.5px solid;
+    width: 90px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 7px;
+    background-color: #fbdece;
+    color: #ea5a0f;
+
+}
+
+.ourservices {
+    font-size: 11px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: #ea580c 1.5px solid;
+    width: 90px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 7px;
+    background-color: #fbdece;
+    color: #ea5a0f;
+
+}
+
+.ourfaq {
+    font-size: 11px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: #ea580c 1.5px solid;
+    width: 90px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 7px;
+    background-color: #fbdece;
+    color: #ea5a0f;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-content h1 {
+    font-size: 2.25rem;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-content ul li::before {
+    content: "•";
+    color: #ea580c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Services Section */
+.services-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.services-section h1 {
+    font-size: 2.25rem;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    border: 0px solid #9ab7c9;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.284);
+    border-radius: 7px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.service-card h1 {
+    font-size: 2.25rem;
+}
+
+.service-card p {
+    font-size: 1.125rem;
+}
+
+.faq-container {
+    border-top: 20px;
+    row-gap:20px;
+
+}
+
+.first-question,
+.second-question,
+.third-question,
+.fourth-question,
+.fifth-question {
+    border: 0px solid #9ab7c9;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.284);
+    border-radius: 7px;
+    padding: 5px 30px;
+    width: 60%;
+    max-width: 500px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.first-question > .question,
+.second-question > .question,
+.third-question > .question,
+.fourth-question > .question,
+.fifth-question > .question {
+    font-weight: bold;
+}
+
+.first-question > .answer,
+.second-question > .answer,
+.third-question > .answer,
+.fourth-question > .answer,
+.fifth-question > .answer {
+    margin-top: 10px;
+    color: #4d4d4d;
+}
+.faq-section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.faq-image {
+    max-width: 80%;
+    width: 450px;
+    height: 450px;
+    padding-top: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourcontactus {
+    font-size: 11px;
+    margin-top: 45px;
+    font-weight: bold;
+    border: #ea580c 1.5px solid;
+    width: 110px;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 7px;
+    background-color: #fbdece;
+    color: #ea5a0f;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px; 
+}
+
+.contact form {
+    border: #4d4d4d79 1px solid;
+    padding: 15px 7px 15px 30px;
+    width: 550px;
+    height: 400px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.284);
+}
+
+.name-email {
+    display: flex;
+    column-gap: 20px;
+}
+
+.name-label {
+    padding-bottom: 200px;
+}
+
+.name-input {
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: #4d4d4d79 1px solid;
+}
+
+.email-input2 {
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: #4d4d4d79 1px solid;
+}
+
+.subject-input {
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: #4d4d4d79 1px solid;
+}
+
+.message-input {
+    width: 250px;
+    height: 100px;
+    border-radius: 4px;
+    border: #4d4d4d79 1px solid;
+}
+
+.form-button {
+    width: 130px;
+    background-color: #ea580c;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #c2410c;
+}
+
+.footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f0f0f0; 
+    padding: 20px 0; 
+}
+
+.foot-bar {
+    text-align: center; 
+}
+
+.downlogo h1 {
+    margin: 0; 
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+
+    .contact-container {
+        padding: 10px;
+    }
+
+    .contact form {
+        border: #4d4d4d79 1px solid;
+        padding: 15px 7px 15px 30px;
+        width: 350px;
+        height: 500px;
+        border-radius: 7px;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.284);
+    }
+
+    .name-input {
+        width: 340px;
+        height: 40px;
+        border-radius: 4px;
+        border: #4d4d4d79 1px solid;
+        margin-bottom: 15px;
+    }
+    
+    .email-input2 {
+        width: 340px;
+        height: 40px;
+        border-radius: 4px;
+        border: #4d4d4d79 1px solid;
+    }
+    
+    .subject-input {
+        width: 340px;
+        height: 40px;
+        border-radius: 4px;
+        border: #4d4d4d79 1px solid;
+    }
+    
+    .message-input {
+        width: 340px;
+        height: 100px;
+        border-radius: 4px;
+        border: #4d4d4d79 1px solid;
+    }
+
+    .name-email {
+        display: inline;
+        flex-direction: row;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .faq-image {
+        width: 100%;
+        height: auto;
+        margin-left: 43px;
+        padding-top: 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hero-section, .about-section {
+        flex-direction: column;
+    }
+
+    .hero-content, .about-content {
+        order: 2;
+    }
+
+    .hero-image, .about-image {
+        order: 1;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .email-input {
+        flex-direction: column;
+    }
+
+    .email-input input {
+        max-width: 100%;
+    }
+
+    .email-input .submit-button {
+        width: 100%;
+    }
+}
+
