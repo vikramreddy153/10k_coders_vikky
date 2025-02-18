@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sue+Ellen+Francisco&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0; /* Prevent scrolling */
+}
+
+.maincontainer {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+    height: 470px; */
+}
+
+.Remainingcontainer {
+    background-color: #ffffff;
+    padding-top: 10px;
+}
+
+.secondcontainer {
+    padding-top: 30px;
+    height: 900px;
+    background-color: #ffffff;
+}
+
+.thirdcontainer {
+    background-color: #ffffff;
+
+    height: 600px;
+}
+
+.cofeecupcontainer {
+    background-color: #ffffff;
+    height: 300px;
+}
+.fifthcontainer {
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.sixthcontainer {
+    padding-top: 10px;
+    background-color: #ffffff;
+    height: 410px;
+}
+
+
+.bgimage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.torn-edge {
+
+    position:relative;
+    top: 10;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    z-index: 0; 
+}
+
+.torn-edge img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.navbarleft {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 10px;
+}
+
+.navbarleft img {
+    width: 20px;
+    height: auto;
+    padding: 10px;
+    background-color: #c4a27c;
+    border-radius: 20px;
+}
+
+.navbarright {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 10px;
+}
+
+.navbarright img {
+    width: 15px;
+    height: auto;
+    padding: 10px;
+    background-color: #c4a27c;
+    border-radius: 20px;
+}
+
+.navbartop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 10px;
+    background-color: #3333338e;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    width: 400px;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2c2723;
+    border-radius: 25px;
+    height: 70px;
+}
+
+.navbarright2 a {
+    padding-right: 20px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+    padding:5px;
+    background-color: #faf1e2;
+    border-radius: 50%;
+    position: relative;
+    left: 160px;
+    bottom: 69px;
+}
+
+.logo > img {
+    position: fixed;
+    width: 60px;
+    top: 0;
+    z-index: 2;
+}
+
+.discoveryheading {
+    font-size: 35px;
+    font-family: "Sue Ellen Francisco";
+    color: rgb(245, 231, 211);
+    position: relative;
+    bottom: -110px;
+    left: 50px;
+    z-index: 1; 
+}
+
+.aboutusheading {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    position: relative;
+    bottom: -70px;
+    left: 130px;
+    z-index: 1; 
+}
+
+.links a, span {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 5px;
+    position: relative;
+    top: 170px;
+    left: 70px;
+    z-index: 1;
+}
+
+.image2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image2 img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.cofeebeanheading {
+    padding-top: 20px;
+    font-family: 'DM Sans';
+    color: #C3A27C;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.contentabout {
+    font-weight: 360;
+    word-spacing: 4px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-left: 9px;
+    column-gap: normal;
+    
+}
+
+.cofeecup {
+    padding-top: 140px;
+}
+.cofeecupimage {
+    position: relative;
+    bottom: 130px;
+    left: 70px;
+}
+.quotesimage {
+    position: relative;
+    width: 90px;
+    bottom: 220px;
+    right: 100px;
+}
+
+.testimonialsheading {
+    padding-top: 20px;
+    padding-left: 60px;
+    font-family: 'DM Sans';
+    color: #C3A27C;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.locationheading {
+    padding-top: 40px;
+    padding-left: 120px;
+    font-family: 'DM Sans';
+    color: #C3A27C;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+}
+
+.paragraph {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+    text-align: center;
+}
+.directionsbutton{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #666666;
+    text-align:center;
+    background-color:#c4a27c; 
+    height:40px; 
+    width:150px;
+    padding-top:13px;
+    border-radius:7px;
+    color:white;
+} 
+
+.directionsbutton:hover {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+.seventhcontainer {
+    background-color: #faf1e2;
+    height: 470px;
+}
